@@ -5,13 +5,10 @@ layout: page
 <article>
 	  
 
-  <p>The first data@sheffield event is to showcase ideas about data across the University.</p>
-  
-
   {{ content }}
 
   {% if site.conference.sponsors %}
-  <p>This event is sponsored and co-organized by</p>
+  <p>This event is made possible by a grant from</p>
   {% for sponsor in site.conference.sponsors %}
   <br>{{ sponsor.name }}</br>
   {% endfor %}
