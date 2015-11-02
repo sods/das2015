@@ -18,7 +18,7 @@ layout: page
 
   {% if site.conference.organizers %}
   {% assign lastone = site.conference.organizers | last %}
-  {% for person in site.conference.local %}
+  {% for person in site.conference.organizers %}
   {% include listperson.html %}
   {% endfor %}</p>
   {% endif %}
