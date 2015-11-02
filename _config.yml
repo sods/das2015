@@ -27,8 +27,10 @@ conference:
   - 2016-12-16
   draft: True # set to True if the programme is draft only.
   sponsors:
-  - name: Facebook
-  - name: Open Data Science Initiative
+  - name: Amazon AWS in Education Grant Award
+  - name: Facebook Faculty Award
+  - name: EPSRC
+    url: http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/N014162/1
 baseurl: "/das2015" # the subpath of your site, e.g. /blog/
 url: "http://opendsi.cc" # the base hostname & protocol for your site
 twitter_username: datascienceshef

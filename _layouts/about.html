@@ -8,10 +8,11 @@ layout: page
   {{ content }}
 
   {% if site.conference.sponsors %}
-  <p>This event is made possible by a grant from</p>
-  {% for sponsor in site.conference.sponsors %}
-  <br>{{ sponsor.name }}</br>
-  {% endfor %}
+  {% assign lastone = site.conference.sponsors | last %}
+  <p>This event is made possible by a grant from:
+  {% for person in site.conference.sponsors %}
+  {% include listperson.html %}
+  {% endfor %}</p>
   {% endif %}
 
   <p><strong>Organizers</strong></p>
