@@ -21,10 +21,10 @@ conference:
   steering:
   name: data@sheffield
   location: Sheffield, UK
-  year: 2016
+  year: 2015
   month: December
   dates:
-  - 2016-12-16
+  - 2015-12-16
   draft: True # set to True if the programme is draft only.
   sponsors:
   - name: Amazon AWS in Education Grant Award
