@@ -5,6 +5,7 @@ permalink: "/:categories/:title.html"
 banner: 
 conference:
   hosts:
+  local:
   organizers:
   - name: Michael Smith
     url: "http://www.michaeltsmith.org.uk/"

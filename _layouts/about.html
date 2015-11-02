@@ -22,7 +22,6 @@ layout: page
 
   {% if site.conference.organizers %}
   {% assign lastone = site.conference.organizers | last %}
-  <p>Local Chair:
   {% for person in site.conference.local %}
   {% include listperson.html %}
   {% endfor %}</p>
