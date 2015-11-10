@@ -1,0 +1,41 @@
+# Site settings
+title: data@sheffield
+venue: Sheffield, UK
+permalink: "/:categories/:title.html"
+banner: banner.png
+conference:
+  hosts:
+  local:
+  organizers:
+  - name: Michael Smith
+    url: "http://www.michaeltsmith.org.uk/"
+    institute: University of Sheffield
+  - name: Michael Croucher
+    url: "http://www.walkingrandomly.com/"
+    institute: University of Sheffield
+  - name: Neil Lawrence
+    url: "http://inverseprobability.com"
+    institute: University of Sheffield
+  general:	
+  symposium:
+  steering:
+  name: data@sheffield
+  location: Sheffield, UK
+  year: 2015
+  month: December
+  dates:
+  - 2015-12-16
+  draft: True # set to True if the programme is draft only.
+  sponsors:
+  - name: Amazon AWS in Education Grant Award
+  - name: Facebook Faculty Award
+  - name: EPSRC
+    url: http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/N014162/1
+baseurl: "/das2015" # the subpath of your site, e.g. /blog/
+url: "http://opendsi.cc" # the base hostname & protocol for your site
+twitter_username: datascienceshef
+github_username:  sods
+facebook: odsi.sheffield
+
+# Build settings
+markdown: kramdown
