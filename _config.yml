@@ -2,7 +2,7 @@
 title: data@sheffield
 venue: Sheffield, UK
 permalink: "/:categories/:title.html"
-banner: assets/banner.png
+banner: "banner.png"
 conference:
   hosts:
   local:
