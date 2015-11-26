@@ -11,7 +11,7 @@ title: Schedule
  
   {{ content }}
   
-  <p>Please click on the link below for the schedule.</p>
+  <p>Please click on the link below for the draft schedule. More information, including abstracts and speaker profiles will be up soon.</p>
   {% for post in site.posts reversed %}
   {% if post.layout == "workshop" %}
   <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> ({% if post.organizers %}{% for organizer in post.organizers %}{% if organizer.url %}<a href="{{ organizer.url }}">{% endif %}{{ organizer.firstname }} {{ organizer.lastname }}{% if organizer.url %}</a>{% endif %}{% if post.organizers | size>1 %}, {% endif %}{% endfor %}{% endif %} {{ post.date | date: "%A, %B %-d" }})</p>
