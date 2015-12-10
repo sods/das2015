@@ -17,11 +17,9 @@ title: Schedule
   
   {% for post in site.posts reversed %}
   {% if post.layout == "day" %}
-  <p>{{ post.title }}</p>
   <p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%A, %B %-d" }}</a>  <i>{{ post.tagline }}</i> </p>
   
   {% for talk in post.talks %}
-  <p>{{ post.title }}1</p>
   <p>{{ talk.start | date: "%H:%M" }} {% if talk.end %}- {{ talk.end | date: "%H:%M" }}{% endif %} <b>{{ talk.title }}</b> {% if talk.spurl %}<a href="{{ talk.spurl }}">{{ talk.speaker }}</a>{% else %} {{ talk.speaker }} {% endif %}{% if talk.institute %}, {{ talk.institute }}{% endif %}</p>
   {% endfor %}
   {% endif %}
