@@ -3,19 +3,33 @@ title: data@sheffield
 venue: Sheffield, UK
 permalink: "/:categories/:title.html"
 banner: "banner.png"
+
+
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+
+ghub:
+  edit: true
+  repository: das2015
+
 conference:
   hosts:
   local:
-  organizers:
-  - name: Michael Smith
-    url: "http://www.michaeltsmith.org.uk/"
-    institute: University of Sheffield
-  - name: Michael Croucher
-    url: "http://www.walkingrandomly.com/"
-    institute: University of Sheffield
-  - name: Neil Lawrence
-    url: "http://inverseprobability.com"
-    institute: University of Sheffield
+  chairs:
+  - type: Organizers
+    people:
+    - name: Michael Smith
+      url: "http://www.michaeltsmith.org.uk/"
+      institute: University of Sheffield
+    - name: Michael Croucher
+      url: "http://www.walkingrandomly.com/"
+      institute: University of Sheffield
+    - name: Neil Lawrence
+      url: "http://inverseprobability.com"
+      institute: University of Sheffield
   general:	
   symposium:
   steering:
